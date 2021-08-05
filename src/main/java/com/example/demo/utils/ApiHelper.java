@@ -17,7 +17,7 @@ public class ApiHelper  {
     private static Logger logger = LogManager.getLogger(ApiHelper.class);
 
 
-    static  class RestErrorHandler implements ResponseErrorHandler{
+    public static class RestErrorHandler implements ResponseErrorHandler{
 
 
         @Override
